@@ -1,0 +1,16 @@
+{
+	"name": "FbMod",
+	"version": "1.0",
+	"manifest_version": 2,
+	"description": "Facebook Mod",
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "popup.html"
+	},
+	
+	"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	
+	"options_page": "options.html",
+ 	
+ 	"permissions": [ "*://*/*", "http://*/*", "https://*/*", "contextMenus", "unlimitedStorage", "cookies", "tabs" ]
+}
